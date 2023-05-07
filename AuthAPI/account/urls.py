@@ -11,6 +11,8 @@ urlpatterns = [
     path('api/login/', views.UserLoginView.as_view()),
     path('api/profile/', views.UserProfile.as_view()),
     path('api/changepass/', views.UserChangePassword.as_view()),
+    path('api/send-email-rest-password/', views.SendPasswordResetEmail.as_view()),
+    path('api/rest-password/<uid>/<token>/', views.UserPasswordReset.as_view()),
 
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),    
