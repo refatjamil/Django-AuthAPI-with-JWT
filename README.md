@@ -62,6 +62,7 @@ Edit the `settings.py` file to configure your database, email settings, and othe
 7. Apply migrations:
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
