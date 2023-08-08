@@ -1,5 +1,4 @@
 
-```plaintext
 # Django-AuthAPI-with-JWT
 
 Django-AuthAPI-with-JWT is an authentication API for Django applications using Django Rest Framework (DRF) and JSON Web Tokens (JWT). It provides functionality for user registration, login, password management, and password reset via email.
